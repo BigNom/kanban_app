@@ -4,7 +4,7 @@
   "description": "Based on Surviving ReactJS kanban_app",
   "main": "index.js",
   "scripts": {
-      "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "stats": "webpack --profile --json > stats.json",
     "build": "webpack",
     "start": "webpack-dev-server"
